@@ -1,0 +1,28 @@
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+#imageContainer{
+    width: 50vw;
+}
+img{
+    max-width: 100%;
+}
+#infocontainer{
+    width: 50vw;
+}
+#title{
+    position: fixed;
+    color: aqua;
+}
+.formRow{
+    display: flex;
+    flex-direction: row;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
